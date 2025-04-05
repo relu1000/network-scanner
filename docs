@@ -1,0 +1,40 @@
+User_Guide.md
+
+# Ghid de Utilizare
+## Instalare
+- Descărcați repository-ul: `git clone https://github.com/relu1000/network-scanner.git`
+- Instalați dependențele: `pip install -r requirements.txt`
+- Configurați parametrii din `config/config.yml`.
+
+## Utilizare
+- Rulați scriptul principal: `python scripts/network_scanner.py`
+- Urmați instrucțiunile afișate pe ecran.
+   Architecture.md
+   markdown
+ # Arhitectura Proiectului
+- `scripts/`: Conține codul principal.
+- `config/`: Fișiere de configurare pentru diferite scenarii.
+- `results/`: Conține datele generate de analiză.
+
+API_Documentation.md
+
+# Documentație API
+## Endpoint: /scan
+- Metodă: POST
+- Parametri:
+  - `target`: IP-ul țintei.
+- Răspuns:
+  ```json
+  {
+    "status": "success",
+    "details": []
+  }
+
+Changelog.md
+# Jurnal de Modificări
+## v1.0.0
+- Lansare inițială cu funcționalitate de scanare de bază.
+
+Contributing.md:
+
+
